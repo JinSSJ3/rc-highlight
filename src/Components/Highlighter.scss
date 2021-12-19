@@ -1,0 +1,129 @@
+.highlighter-container {
+  background: #0d1117;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: auto;
+  line-height: 1.15;
+  //-moz-tab-size: 1.5em;
+  --banner-display: none;
+  --banner-height-normal: 0px;
+  --banner-height-small: 0px;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  .floating-copy-button {
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.504);
+      border: 1px solid white;
+      padding: 7px;
+    }
+    &.copied {
+      border: 1px solid greenyellow;
+      padding: 7px;
+
+      &:hover {
+        border: 1px solid greenyellow;
+
+        background-color: rgba(53, 116, 34, 0.753);
+
+        padding: 7px;
+      }
+    }
+    position: absolute;
+    padding: 8px;
+    right: 7px;
+    top: 7px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.404);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  }
+}
+.highlighter-container::after {
+  box-sizing: inherit;
+}
+.highlighter-container::before {
+  box-sizing: inherit;
+}
+.highlighter-jsx {
+  min-width: 600px;
+  width: 100%;
+  overflow: auto;
+  height: auto !important;
+  margin: 1rem;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: pre-wrap;
+  //word-break: break-word;
+}
+code,
+pre {
+  line-height: 20px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 1em;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+span.token {
+  // color: rgb(57, 188, 240);
+  color: rgb(96, 210, 255);
+}
+span.token.symbol-1 {
+  color: rgb(207, 178, 13);
+}
+span.token.symbol-2 {
+  color: rgb(212, 37, 212);
+}
+span.token.symbol-3 {
+  color: rgb(51, 141, 177);
+}
+span.token.symbol-0 {
+  color: rgb(14, 36, 83);
+}
+span.token.symbol {
+  color: rgb(207, 178, 13);
+}
+span.token.high-keyword {
+  color: rgb(196, 92, 196);
+}
+
+span.token.keyword {
+  color: rgb(51, 91, 177);
+}
+
+span.token.class-name {
+  color: rgb(94, 212, 157);
+}
+span.token.punctuation {
+  color: rgba(255, 255, 255, 0.58);
+}
+span.token.function {
+  color: rgb(226, 212, 135);
+}
+span.token.parameter {
+  color: rgb(96, 210, 255);
+}
+span.token.operator {
+  color: rgb(255, 255, 255);
+}
+span.token.number {
+  color: rgb(80, 223, 67);
+}
+span.token.attributeName {
+  color: rgb(36, 117, 138);
+}
+span.token.tag {
+  color: rgb(252, 146, 158);
+}
+
+span.token.string {
+  color: rgb(168, 109, 91);
+}
+
+span.token.comment {
+  color: rgb(73, 128, 66);
+}
