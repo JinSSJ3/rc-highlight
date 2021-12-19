@@ -1,3 +1,6 @@
 node_modules
 storybook-static
 src
+.*
+jest.*
+rollup.*

@@ -6,9 +6,8 @@ React component for highlighting js and jsx code with copy to clipboard function
 [![npm latest package](https://img.shields.io/npm/v/rc-highlight.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen)](https://www.npmjs.com/package/rc-highlight)
 [![install size](https://packagephobia.com/badge?p=@unlimited-react-components/react-highlight)](https://packagephobia.com/result?p=@unlimited-react-components/react-highlight) <!-- [![Coverage Status](https://coveralls.io/repos/github/jinssj3/rc-highlight/badge.svg?branch=master)](https://coveralls.io/github/unlimited-react-components/react-highlight?branch=master) --> [![Build Status](https://travis-ci.org/jinssj3/rc-highlight.svg?branch=master)](https://travis-ci.org/jinssj3/rc-highlight)
 [![Known Vulnerabilities](https://snyk.io/test/github/jinssj3/rc-highlight/badge.svg)](https://snyk.io/test/github/jinssj3/rc-highlight)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/jinssj3/rc-highlight.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jinssj3/rc-highlight/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jinssj3/rc-highlight.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jinssj3/rc-highlight/context:javascript)
-
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/JinSSJ3/rc-highlight.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/JinSSJ3/rc-highlight/context:javascript)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/JinSSJ3/rc-highlight.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/JinSSJ3/rc-highlight/alerts/)
 ## Sample result: 
 
 <p align="center">
@@ -31,7 +30,7 @@ yarn add rc-highlight
 
 Here is a quick example to get you started, **it's all you need**:
 
-[![Edit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-highlight-demo-7o9pq)
+[![Edit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/admiring-mendeleev-xgmzs?file=/package.json)
 
 ```jsx
 import "./styles.css";

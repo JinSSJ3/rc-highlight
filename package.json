@@ -1,13 +1,13 @@
 {
   "name": "rc-highlight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for highlighting js and jsx code",
   "main": "./build/index.js",
   "module": "./build/index.es.js",
   "types": "./build/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unlimited-react-components/react-highlight.git"
+    "url": "git+https://github.com/JinSSJ3/rc-highlight.git"
   },
   "keywords": [
     "highlight",
@@ -22,9 +22,9 @@
   "author": "JinSSJ3",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unlimited-react-components/react-highlight/issues"
+    "url": "https://github.com/JinSSJ3/rc-highlight/issues"
   },
-  "homepage": "https://github.com/unlimited-react-components/react-highlight#readme",
+  "homepage": "https://github.com/JinSSJ3/rc-highlight#readme",
   "dependencies": {},
   "peerDependencies": {
     "react": "^17.0.1",
